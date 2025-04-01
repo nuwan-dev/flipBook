@@ -16,9 +16,14 @@ body {
   background: #fff;
 }
 
-.flipbook {
+/* .flipbook {
   width: 1000px;
   height: 600px;
+} */
+
+.flipbook {
+  width: 1000px;
+  height: calc(1000px * 297 / 210 / 2);
 }
 
 .flipbook .hard {
@@ -57,11 +62,9 @@ body {
 }
 
 .flip-book-pg {
-  background-size: contain !important;
+  background-size: cover !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
-  width: 200px;
-  aspect-ratio: 210 / 297;
 }
 
 .flip-book-pg-1 {
