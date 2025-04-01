@@ -61,7 +61,7 @@ body {
   background-repeat: no-repeat !important;
   background-position: center !important;
   width: 200px;
-  height: 300px;
+  aspect-ratio: 210 / 297;
 }
 
 .flip-book-pg-1 {
@@ -95,7 +95,7 @@ body {
   background-image: url(./images/2014-3-2.jpg) !important;
 }
 .flip-book-pg-11 {
-  background-image: url(./images/2014-8-25.jpg) !important;
+  background-image: url(./images/2014-8-26.jpg) !important;
 }
 .flip-book-pg-12 {
   background-image: url(./images/2015-8-1.jpg) !important;
@@ -137,5 +137,5 @@ body {
   background-image: url(./images/2023-2-7.jpg) !important;
 }
 .flip-book-pg-25 {
-  background-image: url(./images/2023-3-24.jpg) !important;
+  background-image: url(./images/2024-3.jpg) !important;
 }
